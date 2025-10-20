@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
     sendButton.disabled = true;
 
     try {
-      var response = await fetch("https://botbackend-3-h103.onrender.com/chat", {
+      var response = await fetch("https://botbackend-fzay1oad6-ahmedafwan786s-projects.vercel.app/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: message, age: age })
